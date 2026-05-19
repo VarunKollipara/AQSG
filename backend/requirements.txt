@@ -1,0 +1,22 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+
+# LangChain core
+langchain
+langchain-community
+langchain-classic
+langchain-text-splitters
+
+# Google Gemini (LLM + embeddings + audio transcription)
+langchain-google-genai
+google-genai
+
+# Document loaders
+docx2txt
+pypdf
+
+# Vector store + local embeddings (no per-query Google API calls)
+chromadb
+sentence-transformers

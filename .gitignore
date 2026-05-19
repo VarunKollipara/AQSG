@@ -1,0 +1,31 @@
+# Python virtual environment (never commit — hundreds of MB)
+backend/venv/
+venv/
+.venv/
+
+# Secrets
+backend/.env
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Temp uploads
+backend/temp_uploads/
+
+# Frontend (also covered in frontend/.gitignore)
+frontend/node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: keep large local docs out of the repo (remove these lines if you want them on GitHub)
+# Agentic QA Scenario Generator.pdf
+# Medica_SampleTestCases_Template.csv
