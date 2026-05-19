@@ -9,7 +9,7 @@ Upload a requirements document, get a full test suite in seconds — then refine
 1. **Upload** a requirements document (PDF, Word, Markdown, or CSV).
 2. **AI generates** structured test cases automatically, including domain-specific edge cases your team might miss.
 3. **Refine** the test suite by chatting with the AI — type or speak your instructions.
-4. **Export** the final test suite as a `.csv` file that matches the Medica template, ready to import into Jira/Xray or Excel.
+4. **Export** the final test suite as a `.csv` file that matches a premade template, ready to import into Jira/Xray or Excel.
 
 ---
 
@@ -206,7 +206,7 @@ You should see the AQSG upload page.
 
 ### 5. Download the test suite
 - Click **"Download CSV"** in the top-right of the test cases panel
-- The file follows the Medica template format with all 16 columns
+- The file follows a premade template format with 16 columns
 - Open it in Excel, or import it directly into Jira/Xray
 
 ---
