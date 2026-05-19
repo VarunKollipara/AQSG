@@ -329,11 +329,10 @@ git push -u origin main
 1. Go to 👉 https://vercel.com and sign up (free) with GitHub.
 2. Click **Add New…** → **Project**.
 3. Select your **AQSG** repository → **Import**.
-4. On the configure screen, set:
-   - **Root Directory:** click **Edit** → choose **`frontend`**
-   - **Framework Preset:** Vite (should auto-detect)
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
+4. On the configure screen:
+   - **Root Directory:** leave as **`.`** (repo root) — `vercel.json` at the root tells Vercel to deploy only `frontend/`
+   - Do **not** add a `backend` service in `vercel.json` (the Python API runs on your laptop via ngrok, not on Vercel)
+   - **Framework Preset:** Vite (should auto-detect for the frontend service)
 5. **Do not deploy yet** — add the environment variable first (Part 2 uses a placeholder, then you’ll update it).
 
 #### Step 3: Add a placeholder API URL (you’ll change this after ngrok)
