@@ -110,7 +110,7 @@ GOOGLE_API_KEY=your_google_api_key_here
 
 Replace `your_google_api_key_here` with the key you copied from Google AI Studio. It should look like:
 ```
-GOOGLE_API_KEY=AIzaSyBm98oXqzS91cS7DekFGl8VNh7Ur3O4YB0
+GOOGLE_API_KEY=your_key
 ```
 
 Save and close the file.
