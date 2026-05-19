@@ -1,6 +1,7 @@
 import type { TestCase } from './types';
 
-const BASE = '';
+/** Set in Vercel (demo) or frontend/.env.local — leave empty for local dev (Vite proxy). */
+const BASE = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
 
 export interface UploadResponse {
   status: string;
